@@ -1,0 +1,29 @@
+.footer {
+    background: #F5F5F5;
+    padding: 24px 82.25px 20px 80px;
+    margin-top: 106px;
+}
+
+.div-footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    
+}
+
+.copyright-footer {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #8A8A8A;
+}
+
+.copyright-footerMobile {
+    display: none;
+}
+
+.logoDIS-footer,
+.logoTG-footer {
+    margin-left: 20.5px;
+}

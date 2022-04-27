@@ -1,0 +1,40 @@
+@media only screen and (max-width: 320px) {
+.footer {
+    background: #F5F5F5;
+    padding: 12px 23px 18.5px 24px;
+    margin-top: 82px;
+}
+
+.div-footer {
+    display: block;
+    justify-content: space-between; 
+    align-items: center;
+    text-align: center;
+    
+}
+
+.copyright-footer {
+    display: none;
+}
+
+.copyright-footerMobile {
+    display: block;
+    font-family: 'Factor A ';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    
+    color: #333333;
+}
+
+.ico-footer {
+    margin-top: 14px;
+    text-align: center;
+}
+
+.logoDIS-footer,
+.logoTG-footer {
+    margin-left: 20.5px;
+}
+}

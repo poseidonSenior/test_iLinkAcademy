@@ -1,0 +1,227 @@
+@media only screen and (max-width: 320px) {
+
+.block_Comments_Scroll {
+    position: relative;
+    margin-top: 37px;
+}
+
+.div_Block {
+    position:relative;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 120px 80px 0 0; */
+}
+
+.comments {
+    background: #FFFFFF;
+    border-radius: 2px;
+    margin-right: 17px;
+}
+
+.commentsScroll {
+    padding: 20px 15px 24px 17px;
+    margin: 0;
+}
+
+.com_AND_plusCom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p-comment {
+    margin-right: 0px;
+
+    font-family: 'Factor A';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+
+    letter-spacing: -0.0124em;
+    color: #333333;
+
+}
+
+.btn-comment {
+    align-items: center;
+    display: none;
+
+    background: #585CC6;
+    border-radius: 2px;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    padding: 17px 28px 17px 30px;
+}
+
+.btn-commentMobile:hover {
+    background: #696DC8;
+}
+
+.btn-commentMobile:active {
+    background: #797DDF;
+}
+
+.btn-commentMobile {
+    display: inline;
+}
+
+.commPlus {
+    display: none;
+    margin-right: 0px;
+}
+
+/* Стилизация окон отзывов  ====================================*/
+
+.comments-Person {
+    margin-top: 21px;
+    display: none;
+}
+
+.comments-PersonMobile{
+    margin-top: 21px;
+    display: flex;
+}
+
+.swipe-comment-person {
+    background: #F5F5F5;
+    border-radius: 2px;
+    padding: 16px 12px;
+    width: 272px;
+}
+
+.swipe-comment-person:not(:first-child){
+    margin-left: 0px;
+}
+
+.div-commentValid,
+.div-commentValid div {
+    display: block;
+}
+
+.div-commentValid {
+    justify-content: space-between;
+}
+
+.div-commentValid div {
+    display: flex;
+    align-items: center;
+}
+
+.swipe-commentPhoto {
+    height: 40px;
+    width: 40px;
+    margin-right: 8px;
+}
+
+.swipe-commentFirstName {
+    font-family: 'Factor A';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    letter-spacing: -0.0124em;
+
+    color: #333333;
+
+}
+
+.swipe-commentBofD {
+    margin-top: 12px;
+    font-family: 'Factor A';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+
+    color: #8A8A8A;
+}
+
+.swipe-commentText {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #333333;
+
+    margin-top: 12px;
+}
+
+/* .swiper-pagination-bullet {
+    border-radius: 0;
+} */
+
+
+
+/* Стилизация пагиеации */
+.comments-Scroll {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.commentsPanig {
+    width: 12px;
+    height: 4px;
+    background: #585CC6;
+    opacity: 0.3;
+    /* border: 4px solid #585CC6 */
+
+}
+
+.panigActiv {
+    width: 24px;
+    opacity: 1;
+}
+
+.commentsPanig:not(:first-child) {
+    margin-left: 6px;
+}
+
+/* Стилизация стрелок */
+.div_arrows-comment {
+    position: absolute;
+    bottom: -3px;
+    display: none;
+    right: 90px;
+    /* margin-top: 400px; */
+}
+
+/* .swiper-button-prev {
+    background: white;
+    border-radius: 2px;
+} */
+
+/* .swiper-button-next {
+margin-left: 16px;
+    
+} */
+
+/* .swiper-button-next,
+.swiper-button-prev {
+    height: 52px;
+    width: 52px;
+} */
+
+.success__modulComment{
+    display: none;
+    position: absolute;
+    bottom: -70px;
+    right: 40px;
+}
+
+.success__modulCommentMobile {
+    display: inline;
+    position: absolute;
+    top: -745px;
+    left: 16px;
+}
+}

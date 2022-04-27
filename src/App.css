@@ -1,0 +1,29 @@
+.container {
+    position: relative;
+    width: 1440px;
+    margin: 0 auto;
+    background: #585CC6;
+}
+
+.text-Wlc {
+    font-family: 'Factor A';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 124px;
+    line-height: 148px;
+
+    letter-spacing: -0.0124em;
+
+    color: #FFFFFF;
+    margin: 93px 203px 0 80px;
+}
+
+.img-vector {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.img-vectorMobile {
+    display: none;
+}

@@ -1,0 +1,266 @@
+.modal__wrapper {
+    position: absolute;
+    bottom: -170px;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .2);
+    backdrop-filter: blur(10px);
+
+}
+
+.modal__wrapper.open {
+    height: 1823px;
+    display: block;
+    z-index: 100000;
+}
+
+.modal__wrapper.close {
+    height: 0;
+    display: none;
+}
+
+.modal__body {
+    width: 690px;
+    height: 443px;
+    /* max-width: 500px; */
+    margin: auto;
+    background: white;
+    margin-top: 690px;
+    padding: 24px;
+    max-height: 500px;
+}
+
+.modal__body.plusHeight {
+    height: 600px;
+}
+
+.fst_modalBlock,
+.snd_modalBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal_commentBlock {
+    font-family: 'Factor A';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.0124em;
+    color: #333333;
+}
+
+.modal__close {
+    text-align: right;
+    margin-top: -15px;
+    font-size: 40px;
+    color: grey;
+    cursor: pointer;
+}
+
+.modal__close img {
+    height: 17.73px;
+    width: 17.73px;
+}
+
+.modal__question {
+    font-family: 'Factor A';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.0124em;
+    color: #333333;
+}
+
+.whName-modal {
+    margin-top: 20px;
+}
+
+.snd_modalBlock div {
+
+}
+
+.input__modal {
+    font-family: 'Gilroy';
+    font-style: normal;
+    width: 395px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8A8A8A;
+    padding-left: 12px;
+    padding: 15px 294px 15px 12px;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+}
+
+.input__modal.redBorder {
+    border: 1px solid #EB5757;
+}
+
+.btn-commentBtnModal {
+    align-items: center;
+    display: flex;
+
+    background: #585CC6;
+    border-radius: 2px;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    padding: 17px 28px 17px 30px;
+}
+
+.btn-commentBtnModal.disabled {
+    background: #8A8A8A;
+    cursor: default;
+    z-index: 1000;
+}
+
+.downlFile__Modal {
+    position: absolute;
+    height: 50px;
+    width: 220px;
+    right: 400px;
+    border: 2px solid black;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.errorMessage__Modal {
+    display: flex;
+    align-items: center;
+}
+
+.errorImg__Modal {
+margin-right: 4px;
+}
+
+.errorText__Modal {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #EB5757;
+}
+
+.whLike-modal {
+    margin-top: 32px;
+}
+
+.modal__textArea {
+    margin-top: 12px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8A8A8A;
+    padding-top: 12px;
+    padding-left: 12px;
+    width: 640px;
+    height: 105px;
+    resize:none;
+
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+}
+
+.modal__textArea.redBorder {
+    border: 1px solid #EB5757;
+}
+
+.trd_modalBlock {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-commentMobileModal {
+    display: none;
+}
+
+.modal__btn {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+
+    padding: 17px 26px;
+    background: #585CC6;
+    border-radius: 2px;
+}
+
+.modal__btn:hover {
+    background: #696DC8;
+}
+
+.modal__btn:active {
+    background: #797DDF;
+}
+
+.modal__btn.disabled {
+    background: #8A8A8A;
+    cursor: default;
+}
+
+.modal__btnMobile {
+    display: none;
+}
+
+.divFlexMobile {
+    display: flex;
+    align-items: center;
+}
+
+.modalPhoto__info {
+    margin-left: 18px;
+}
+
+.modalText__info {
+    font-size: 12px;
+    line-height: 16px;
+    /* margin-left: 10px; */
+    /* margin-right: 20px; */
+    margin-left: 8px;
+}
+
+
+/* Стилизация блока файла */
+.blockUploadFiles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 268px;
+    padding: 14px 16px 14px 14px;
+    background: #F5F5F5;
+    border-radius: 2px;
+    margin-top: 12px;
+}
+
+.imgUploadFile {
+        
+}
+
+.nameUpFile {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    color: #333333;
+}
+
+.nameUpFile.errorRed-P {
+    color: #EB5757;
+}
+
+.imgDeleteFile {
+    cursor: pointer;
+}
